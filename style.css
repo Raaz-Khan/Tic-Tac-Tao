@@ -1,0 +1,85 @@
+ *{
+    margin: 0;
+    padding: 0;
+ }
+
+ body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2vh;
+    background-color: #4B6858;
+
+}
+
+
+
+.winnerBox{
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5vh;
+    /* background-color: #b2c20d;    */
+    width: 70vmin;
+}
+
+.winnerBox>h3{
+    font-size: 80px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: yellow;
+}
+
+h2{
+    font-size: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: yellow;
+
+}
+
+main{
+    background-color: transparent;
+    height: 70vh;
+    text-align: center;
+    padding: 4px;
+    margin:16px;
+}
+
+.gameBox{
+    height: 60vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 2vh;
+    padding: 2vh;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    font-size: 15vmin;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #6E0D25;
+    text-align: center;
+    border: none;
+    border-radius: 12px;
+    background-color: #faffbf;
+
+}
+
+.btn{
+    padding: 12px 50px;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    background-color: #25250e;
+    color: yellowgreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hide{
+    display: none;
+}
