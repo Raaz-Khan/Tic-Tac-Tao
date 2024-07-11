@@ -1,1 +1,1 @@
-# This is a Tic-Tac_Toe Game created usgit ing HTML CSS and JS
+# This is a Tic-Tac-Toe Game created using HTML CSS and JS
